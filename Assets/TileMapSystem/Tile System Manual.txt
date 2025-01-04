@@ -1,0 +1,11 @@
+Grid System einrichten:
+*Grid System Prefab in Szene
+*Grid System Prefab / Grid System Komponente: tile pixel width setzen
+*Grid System Prefab / Tile Manager: mindestens einen Tile konfigurieren 
+-> Uv Pos = Position des Tilesets im Textur Atlas; TilePixelWidth * 4 * UvPos = Ursprungsposition des  des Tilesets
+
+Texur Atlas:
+*Auflösung muss im 1/1 Format sein (z.B. 64px * 64px)
+*Sprite Settings: *Filer Mode: Point (no filter) *Compression: None
+*Neue Tilesets hinzufügen: Von links unten nach rechts oben erweitern (Speichereffizienz); Position anderer Tilesets nicht verschieben.
+*Photoshop Datei mitspeichern und "PS" hinter Namen schreiben
